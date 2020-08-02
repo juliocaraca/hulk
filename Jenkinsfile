@@ -1,6 +1,6 @@
 pipeline {
     //agent {label 'node1'}
-    //agent none
+    agent any
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "juliocaraca/jungle"
